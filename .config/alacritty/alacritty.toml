@@ -1,0 +1,26 @@
+[general]
+import = ["~/.config/alacritty/themes/tokyonight-moon.toml"]
+
+[window]
+padding = {x = 6, y = 6}
+
+[font]
+size = 12.5
+
+[font.normal]
+# family = "CaskaydiaCoveNerdFont"
+# style = "SemiLight"
+
+family = "MesloLGSNerdFont"
+style = "Regular"
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[cursor.vi_mode_style]
+shape = "Beam"
+blinking = "On"
+
+[terminal]
+shell = "zsh"

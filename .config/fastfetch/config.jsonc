@@ -1,0 +1,35 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "artix2_small",
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " 󰁔 ",
+    "color": {
+      "keys": "magenta" // Делаем ключи фиолетовыми в стиле TokyoNight
+    }
+  },
+  "modules":[
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "blue",
+        "at": "white",
+        "host": "blue"
+      }
+    },
+    "break",
+    { "type": "os",      "key": "os " },
+    { "type": "kernel",  "key": "ker" },
+    { "type": "wm",      "key": "wm " },
+    { "type": "shell",   "key": "shl" },
+    { "type": "uptime",  "key": "up " },
+    "break"
+  ]
+}
